@@ -1,0 +1,3 @@
+count by(instance) (node_cpu_seconds_total{ mode="idle"})
+
+sum by(instance) (node_network_receive_bytes_total)
